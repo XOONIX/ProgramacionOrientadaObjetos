@@ -3,7 +3,7 @@
 #Entrada: Nombre del libro a buscar
 #Salida: Muentra informacion del libro buscado
 #Proceso: Crear una clase libro con sus atributos y metodos, crear objetos, almacenarlos en una lista y un diccionario, mostrar la informacion de los libros y permitir la busqueda por nombre.
-
+#
 class Libro:
   def  __init__(self, Editorial, Autor, Edad, NombreLibro, FechaPublicacion, precio, Disponiblidad):
     self.Editorial = Editorial
