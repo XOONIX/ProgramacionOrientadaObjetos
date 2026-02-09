@@ -1,0 +1,15 @@
+class salon:
+    def __init__(self, nombre, codigo, responsable, puestos):
+        self.nombre = nombre
+        self.codigo = codigo
+        self.responsable = responsable  
+        self.puestos = puestos
+    
+salon1 = salon("Salon A", "001", "Juan Perez", 30)
+salon2 = salon("Salon B", "002", "Maria Gomez", 25)
+salon3 = salon("Salon C", "003", "Carlos Lopez", 20)
+
+print(f"Salon: {salon1.nombre}, Codigo: {salon1.codigo}, Responsable: {salon1.responsable}, Puestos: {salon1.puestos}")
+print(f"Salon: {salon2.nombre}, Codigo: {salon2.codigo}, Responsable: {salon2.responsable}, Puestos: {salon2.puestos}")
+print(f"Salon: {salon3.nombre}, Codigo: {salon3.codigo}, Responsable: {salon3.responsable}, Puestos: {salon3.puestos}")
+
