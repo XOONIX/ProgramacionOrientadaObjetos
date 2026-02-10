@@ -1,3 +1,8 @@
+#Nombre: Johnny Fabian Cardozo Montenegro
+#Proyecto: Usu del get y set para crear un personaje aprendiz
+#Entrada: Ingreso de datos para crear un personaje aprendiz
+#Salida: Información del personaje aprendiz creado
+#Proceso: Definición de la clase aprendiz con atributos privados y métodos get y set para acceder a ellos. Creación de un objeto aprendiz a partir de los datos ingresados por el usuario y muestra de su información.
 class aprendiz:
     def __init__(self, nombre, edad, peso, estatura):
         self.__nombre = nombre

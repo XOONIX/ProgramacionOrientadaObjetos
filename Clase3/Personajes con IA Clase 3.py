@@ -1,3 +1,11 @@
+#Nombre: Johnny Fabian Cardozo Montenegro   
+#Proyecto: Personajes con IA
+#Entrada: Animación de barras de vida y ataques
+#Salida: Información de personajes, animación de ataques y barras de vida descendiendo.
+#Proceso: Definición de clases para ninja, dragon y mago con métodos de ataque e información. Animación de barras de vida y ataques.
+
+
+
 import time
 import sys
 

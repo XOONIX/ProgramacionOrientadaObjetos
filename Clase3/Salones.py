@@ -1,3 +1,9 @@
+#Nombre: Johnny Fabian Cardozo Montenegro
+#Proyecto: Salones
+#Entrada: Creación de objetos de la clase salon con sus atributos
+#Salida: Información de los salones creados
+#Proceso: Definición de la clase salon con sus atributos y creación de objetos de la clase salon con información específica. Impresión de la información de cada salón creado.
+
 class salon:
     def __init__(self, nombre, codigo, responsable, puestos):
         self.nombre = nombre
