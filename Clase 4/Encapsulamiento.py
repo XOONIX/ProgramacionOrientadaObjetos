@@ -6,7 +6,7 @@ class prenda:
         self._talla = talla
         self.__stock = stock
         self.__precio= precio
-    #Encapsulamiento con property
+    #Encapsulamiento con property 
     @property
     def talla(self):
         return self._talla
